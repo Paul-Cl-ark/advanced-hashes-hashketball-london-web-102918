@@ -234,7 +234,7 @@ def big_shoe_rebounds
 			end
 	
 	    if player_data[:shoe] == biggest_shoe
-	      rebounds = player_data["rebounds"]
+	      rebounds = player_data[:rebounds]
       end
     end
   end
